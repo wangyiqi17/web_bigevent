@@ -1,5 +1,5 @@
 $.ajaxPrefilter((options) => {
-    options.url = "http://www.liulongbin.top:3007" + options.url
+    options.url = "http://big-event-api-t.itheima.net" + options.url
 
     // 统一为有权限的接口，设置 headers 请求头
     if (options.url.includes("/my/")) {
